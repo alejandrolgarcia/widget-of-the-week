@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:widget_of_the_week/widgets/wrap.dart';
+import 'package:widget_of_the_week/widgets/animated_container.dart';
+// import 'package:widget_of_the_week/widgets/wrap.dart';
 // import 'package:widget_of_the_week/widgets/expanded.dart';
 // import 'package:widget_of_the_week/widgets/safe_area.dart';
  
@@ -15,7 +16,8 @@ class MyApp extends StatelessWidget {
       routes: {
         // '/' : (BuildContext context) => SafeAreaWidget()
         // '/' : (BuildContext context) => ExpandedWidget()
-        '/'    : (BuildContext context) => WrapWidget()
+        // '/'    : (BuildContext context) => WrapWidget()
+        '/'    : (BuildContext context) => AnimatedContainerWidget()
       },
     );
   }
